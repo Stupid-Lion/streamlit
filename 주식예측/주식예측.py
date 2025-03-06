@@ -52,8 +52,8 @@ predictions = model.predict(X)
 
 # Visualize predictions
 plt.figure(figsize=(10, 6))
-plt.plot(data.index, y, label="실제 종가", color='blue')
-plt.plot(data.index, predictions, label="예측 종가", color='red', linestyle='--')
+plt.plot(data.index, y, label="actual closing price", color='blue')
+plt.plot(data.index, predictions, label="predicted closing price", color='red', linestyle='--')
 plt.title(f"{ticker} Stock Prediction")  # Changed title to English
 plt.xlabel("Date")  # Changed x-axis label to English
 plt.ylabel("Price")  # Changed y-axis label to English
