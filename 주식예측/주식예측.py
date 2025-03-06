@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from matplotlib import rcParams, font_manager
 
 # 한글 폰트 설정 (배포 환경에서 폰트 파일 경로 설정)
-font_path = 'streamlit/주식예측/NanumGothic-Bold.ttf'  # 실제 경로로 수정해야 합니다.
+font_path = 'NanumGothic-Bold.ttf'  # 실제 경로로 수정해야 합니다.
 font_prop = font_manager.FontProperties(fname=font_path)
 
 # 한글 폰트 적용
